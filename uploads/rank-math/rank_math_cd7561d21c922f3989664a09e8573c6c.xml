@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//ebp.dev.cc/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://ebp.dev.cc/post-sitemap.xml</loc>
+		<lastmod>2020-12-07T17:58:30+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://ebp.dev.cc/page-sitemap.xml</loc>
+		<lastmod>2020-12-27T18:04:33+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://ebp.dev.cc/category-sitemap.xml</loc>
+		<lastmod>2020-12-07T17:58:30+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

@@ -1,0 +1,1073 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:04:18
+* VERSION: 1.3.40
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.25                                |7.3.1
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-12-07 18:13:37
+WP VERSION__________: 5.5.3
+DUP VERSION_________: 1.3.40
+DB__________________: 10.1.47
+DB TABLES___________: 81
+DB ROWS_____________: 21,104
+DB FILE SIZE________: 42.59MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.1 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.1
+DOC ROOT____________: "C:/Users/Casey/Sites/ebp.dev.cc"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://ebp.dev.cc/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/Users/Casey/Sites/ebp.dev.cc/20201207_eatbuildplay_[HASH]_20201207181337_archive.zip"
+SIZE________________: 251.07MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/Users/Casey/Sites/ebp.dev.cc/20201207_eatbuildplay_[HASH]_20201207181337_archive.zip"
+SIZE________________: 251.07MBFile timestamp set to Current: 2020-12-07 19:04:31
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 07:04:31 - RUNTIME: 13.0096 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:05:58
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.37 -- Build Server: 10.1.47
+FILE SIZE:	dup-database__[HASH].sql (23.94MB)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/Users/Casey/Sites/ebp.dev.cc/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [10.1.37] is less than the build version [10.1.47].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	723
+
+_fwbk_wp_actionscheduler_actions: (2)
+_fwbk_wp_actionscheduler_claims: (0)
+_fwbk_wp_actionscheduler_groups: (1)
+_fwbk_wp_actionscheduler_logs: (6)
+_fwbk_wp_commentmeta: (3)
+_fwbk_wp_comments: (10)
+_fwbk_wp_links: (0)
+_fwbk_wp_options: (199)
+wp_actionscheduler_actions: (142)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (422)
+wp_brizy_logs: (0)
+wp_commentmeta: (62)
+wp_comments: (55)
+wp_duplicator_packages: (0)
+wp_jet_post_types: (1)
+wp_jet_review_comments: (0)
+wp_jet_review_meta: (0)
+wp_jet_review_types: (1)
+wp_jet_reviews: (0)
+wp_jet_smart_filters_indexer: (0)
+wp_jet_taxonomies: (1)
+wp_jet_widgets_styles: (14)
+wp_links: (0)
+wp_options: (588)
+wp_postmeta: (16205)
+wp_posts: (2167)
+wp_rank_math_404_logs: (0)
+wp_rank_math_analytics_gsc: (0)
+wp_rank_math_analytics_objects: (798)
+wp_rank_math_internal_links: (35)
+wp_rank_math_internal_meta: (835)
+wp_rank_math_redirections: (0)
+wp_rank_math_redirections_cache: (0)
+wp_rank_math_sc_analytics: (0)
+wp_revslider_css: (109)
+wp_revslider_css_bkp: (47)
+wp_revslider_layer_animations: (0)
+wp_revslider_layer_animations_bkp: (0)
+wp_revslider_navigations: (0)
+wp_revslider_navigations_bkp: (0)
+wp_revslider_sliders: (1)
+wp_revslider_sliders_bkp: (0)
+wp_revslider_slides: (1)
+wp_revslider_slides_bkp: (0)
+wp_revslider_static_slides: (1)
+wp_revslider_static_slides_bkp: (0)
+wp_term_relationships: (214)
+wp_term_taxonomy: (71)
+wp_termmeta: (25)
+wp_terms: (71)
+wp_usermeta: (377)
+wp_users: (10)
+wp_wc_admin_note_actions: (17)
+wp_wc_admin_notes: (16)
+wp_wc_category_lookup: (5)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (16)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '2031' cache/transient rows
+
+INSERT DATA RUNTIME: 2.6714 sec.
+STEP-2 COMPLETE @ 07:06:01 - RUNTIME: 2.7379 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:06:07
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "EatBuildPlay"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/vhosts/eatbuildplay.com/httpdocs"
+path_new______________: "C:/Users/Casey/Sites/ebp.dev.cc"
+siteurl_______________: "http://ebp.dev.cc"
+url_old_______________: "https://eatbuildplay.com"
+url_new_______________: "http://ebp.dev.cc"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "_fwbk_wp_actionscheduler_actions"________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "_fwbk_wp_actionscheduler_claims"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_fwbk_wp_actionscheduler_groups"_________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "_fwbk_wp_actionscheduler_logs"___________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "_fwbk_wp_commentmeta"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "_fwbk_wp_comments"_______________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "_fwbk_wp_links"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_fwbk_wp_options"________________________________[ROWS:   199][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   142][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   422][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_brizy_logs"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jet_post_types"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_jet_review_comments"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jet_review_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jet_review_types"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_jet_reviews"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jet_smart_filters_indexer"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jet_taxonomies"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_jet_widgets_styles"___________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   588][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 16205][PG:   5][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  2167][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_rank_math_404_logs"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_analytics_gsc"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_analytics_objects"__________________[ROWS:   798][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_rank_math_internal_links"_____________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_rank_math_internal_meta"______________________[ROWS:   835][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_rank_math_redirections"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections_cache"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_sc_analytics"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   214][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   377][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/eatbuildplay.com/httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  2:"\/var\/www\/vhosts\/eatbuildplay.com\/httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Featbuildplay.com%2Fhttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  4:"\var\www\vhosts\eatbuildplay.com\httpdocs" =======> "C:/Users/Casey/Sites/ebp.dev.cc"
+	SEARCH  5:"\\var\\www\\vhosts\\eatbuildplay.com\\httpdocs" ==> "C:\/Users\/Casey\/Sites\/ebp.dev.cc"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Ceatbuildplay.com%5Chttpdocs" => "C%3A%2FUsers%2FCasey%2FSites%2Febp.dev.cc"
+	SEARCH  7:"//eatbuildplay.com" ==============================> "//ebp.dev.cc"
+	SEARCH  8:"\/\/eatbuildplay.com" ============================> "\/\/ebp.dev.cc"
+	SEARCH  9:"%2F%2Featbuildplay.com" ==========================> "%2F%2Febp.dev.cc"
+	SEARCH 10:"//www.eatbuildplay.com" ==========================> "//ebp.dev.cc"
+	SEARCH 11:"\/\/www.eatbuildplay.com" ========================> "\/\/ebp.dev.cc"
+	SEARCH 12:"%2F%2Fwww.eatbuildplay.com" ======================> "%2F%2Febp.dev.cc"
+	SEARCH 13:"https://ebp.dev.cc" ==============================> "http://ebp.dev.cc"
+	SEARCH 14:"https:\/\/ebp.dev.cc" ============================> "http:\/\/ebp.dev.cc"
+	SEARCH 15:"https%3A%2F%2Febp.dev.cc" ========================> "http%3A%2F%2Febp.dev.cc"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:81 	|	 Rows:22535 	|	 Cells:144938 
+UPDATED:	Tables:10 	|	 Rows:3105 	|	 Cells:3700 
+ERRORS:		0 
+RUNTIME:	6.647600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""ebpDBnvy39""
+	UPDATE DB_USER ""ebpDBnvy39""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:06:13 - RUNTIME: 6.7175 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
