@@ -31,10 +31,10 @@
                 <a href="<?php print site_url('register'); ?>">Register</a>
               </li>
               <li>
-                <a href="">Explore</a>
+                <a href="<?php print site_url('explore'); ?>">Explore</a>
               </li>
               <li>
-                <a href="">Login</a>
+                <a href="<?php print site_url('login'); ?>">Login</a>
               </li>
             </ul>
           </nav>
