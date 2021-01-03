@@ -139,3 +139,5 @@ exit(0);
 1609529823_5492:"Warning: admin, 127.0.0.1; Post deleted: (multiple entries): Post id: 3693,Post author: 1,Post type: postman_sent_mail,Post status: private,Post inserted: 2020-08-22 12:38:29,Post modified: 2020-08-22 12:38:29,Post guid: http:\/\/ebp.dev.cc\/postman_sent_mail\/sucuri-alert-eatbuildplay-com-post-update-186-84-91-1-225\/,Post title: Sucuri Alert, eatbuildplay.com, Post Update, 186.84.91.1"
 1609529824_9534:"Notice: admin, 127.0.0.1; Page was updated; ID: 522; name: Register"
 1609529826_9733:"Warning: admin, 127.0.0.1; Post deleted: (multiple entries): Post id: 3695,Post author: 1,Post type: postman_sent_mail,Post status: private,Post inserted: 2020-08-22 12:38:30,Post modified: 2020-08-22 12:38:30,Post guid: http:\/\/ebp.dev.cc\/postman_sent_mail\/sucuri-alert-eatbuildplay-com-post-update-186-84-91-1-64\/,Post title: Sucuri Alert, eatbuildplay.com, Post Update, 186.84.91.1"
+1609639696_3002:"Error: 127.0.0.1; User authentication failed: testadmin"
+1609639705_0484:"Notice: 127.0.0.1; User authentication succeeded: admin"

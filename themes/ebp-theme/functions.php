@@ -33,13 +33,19 @@ add_action('wp_enqueue_scripts', function() {
     true
   );
 
-
-
   wp_enqueue_style(
     'ebp-theme-main',
     get_template_directory_uri() . '/style.css',
     ['font-awesome', 'bootstrap'],
     time()
+  );
+
+  wp_enqueue_script(
+    'ebp-theme-main-script',
+    get_template_directory_uri() . '/script.js',
+    ['jquery'],
+    time(),
+    true
   );
 
 });
@@ -57,7 +63,7 @@ add_action('wp_footer', function() {
   wp_dequeue_script( 'wp-embed' );
 });
 add_action( 'wp_print_styles', 'deregisterStyles', 100 );
-add_action( 'wp_print_scripts', 'deregisterJquery', 100 );
+// add_action( 'wp_print_scripts', 'deregisterJquery', 100 );
 
 function deregisterJquery() {
 
@@ -75,5 +81,34 @@ function deregisterStyles() {
     return;
   }
   wp_deregister_style('dashicons');
+
+}
+
+add_action('wp_ajax_register_form_process', 'registerFormProcess' );
+add_action('wp_ajax_nopriv_register_form_process', 'registerFormProcess' );
+
+function registerFormProcess() {
+
+  $firstName = sanitize_text_field( $_POST['firstName'] );
+  $lastName = sanitize_text_field( $_POST['lastName'] );
+  $email = sanitize_text_field( $_POST['email'] );
+  $companyName = sanitize_text_field( $_POST['companyName'] );
+
+  $result = wp_create_user(
+    $email,
+    '1234',
+    $email
+  );
+  if( is_wp_error($result) ) {
+    $error = $result->get_error_message();
+    //handle error here
+  } else {
+    $user = get_user_by('id', $result);
+    //handle successful creation here
+  }
+
+  $response = new \stdClass();
+  $response->code = 200;
+  wp_send_json_success( $response );
 
 }
